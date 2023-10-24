@@ -1,7 +1,7 @@
 const express = require('express');
 const ProductsServices = require('../services/product.service');
-const router = express.Router();
 
+const router = express.Router();
 const service = new ProductsServices();
 
 router.get('/', (req, res) => {
